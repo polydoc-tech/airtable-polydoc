@@ -7,7 +7,7 @@
 // source of truth and is exercised by the test suite; keep the inline copies in
 // sync with it.
 //
-// Why this shape (see ../ROADMAP.md):
+// Why this shape:
 //  - The action runs server-side, so calling api.polydoc.tech needs no CORS.
 //  - PolyDoc returns the file as binary (delivery "download"). Airtable
 //    attachment fields take file bytes via the uploadAttachment endpoint

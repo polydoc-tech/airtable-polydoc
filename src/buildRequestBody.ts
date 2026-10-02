@@ -4,7 +4,7 @@
  * be unit-tested without an Airtable or browser runtime. Ported from the n8n
  * reference connector (n8n-nodes-polydoc/nodes/PolyDoc/GenericFunctions.ts).
  *
- * Field shapes follow polydoc-gateway/src/schemas/{common,pdf,screenshot}.ts.
+ * Field shapes follow the PolyDoc API request schema (https://docs.polydoc.tech).
  */
 
 export type JsonObject = Record<string, unknown>;
