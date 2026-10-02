@@ -12,7 +12,7 @@ This repo holds two things:
    - [`generate-einvoice.js`](recipes/generate-einvoice.js) - produce a hybrid EN 16931 e-invoice PDF
 2. **`src/buildRequestBody.ts`** - the shared, unit-tested PolyDoc request builder.
    Used by the recipes' logic today and by the Blocks SDK Marketplace extension
-   (planned, see [`ROADMAP.md`](ROADMAP.md)).
+   (planned).
 
 ## Which Airtable surface, and what it costs
 
@@ -69,6 +69,3 @@ The `recipes/` files are self-contained for copy-paste (the Airtable script
 editor has no module imports), so they inline the helpers from
 [`recipes/_shared.js`](recipes/_shared.js). `test/recipes.test.ts` enforces that
 self-containment and verifies the base64 encoder.
-
-See [`ROADMAP.md`](ROADMAP.md) for the full plan, including the Marketplace
-extension and the gateway CORS prerequisite.
