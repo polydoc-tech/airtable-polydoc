@@ -30,7 +30,7 @@
     "test:all": "vitest run"
   },
   "devDependencies": {
-    "@types/node": "^22.10.0",
+    "@types/node": "^24.0.0",
     "typescript": "^5.7.2",
     "vitest": "^4.1.8"
   }
