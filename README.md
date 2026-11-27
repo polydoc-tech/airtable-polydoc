@@ -69,3 +69,7 @@ The `recipes/` files are self-contained for copy-paste (the Airtable script
 editor has no module imports), so they inline the helpers from
 [`recipes/_shared.js`](recipes/_shared.js). `test/recipes.test.ts` enforces that
 self-containment and verifies the base64 encoder.
+
+## License
+
+[MIT](./LICENSE)
