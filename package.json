@@ -19,8 +19,15 @@
     "name": "PolyDoc",
     "email": "hello@polydoc.tech"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/polydoc-tech/airtable-polydoc.git"
+  },
+  "bugs": {
+    "url": "https://github.com/polydoc-tech/airtable-polydoc/issues"
+  },
   "engines": {
-    "node": ">=20.15"
+    "node": ">=20.19"
   },
   "type": "module",
   "scripts": {
